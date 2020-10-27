@@ -1,1 +1,1 @@
-The Full Spectrum Records website
+The homepage for the Andrew Weathers internet website
