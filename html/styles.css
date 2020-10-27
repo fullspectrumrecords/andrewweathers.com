@@ -4,6 +4,12 @@ body {
     line-height: 1.4;
     color: #232323;
     padding: 3.5vw;
+
+    background: img(header.png);
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    background-size: cover;
 }
 
 .logo {
