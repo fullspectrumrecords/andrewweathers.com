@@ -24,10 +24,6 @@ body {
     margin: 0 4vw 0 0;
 }
 
-.logo g {
-    fill: #413e3e;
-}
-
 main {
     width: 100%;
     margin: 0 auto;
@@ -35,13 +31,14 @@ main {
 
 a {
     color: #00adef;
+    color: #eee;
     text-decoration: none;
     transition: 1s all ease;
 }
 
 a:hover {
     color: #111;
-    color: #eee;
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -66,11 +63,11 @@ a:hover {
 }
 
 .links .icon path {
-    fill: #00adef;
+    fill: #ddd;
 }
 
 .links a:hover .icon path {
-    fill: #111;
+    fill: #fff;
 }
 
 @media (min-width: 940px) {
@@ -103,32 +100,4 @@ a:hover {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;
-        color: #232323;
-        color: #ddd;
-    }
 
-    .logo g {
-        fill: #413e3e;
-        fill: #ddd;
-    }
-
-    a {
-        color: #00adef;
-    }
-
-    a:hover {
-        color: #eee;
-    }
-
-    .links .icon path {
-        fill: #00adef;
-    }
-
-    .links a:hover .icon path {
-        fill: #eee;
-    }
-
-}
