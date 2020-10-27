@@ -3,6 +3,7 @@ body {
     font-size: 3.2vw;
     line-height: 1.4;
     color: #232323;
+    color: #ddd;
     padding: 3.5vw;
 
     background: url(header.png) no-repeat center center fixed;
@@ -40,6 +41,7 @@ a {
 
 a:hover {
     color: #111;
+    color: #eee;
     text-decoration: underline;
 }
 
