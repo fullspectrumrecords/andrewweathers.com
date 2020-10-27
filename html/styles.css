@@ -2,10 +2,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 3.2vw;
     line-height: 1.4;
-    color: #232323;
     color: #ddd;
     padding: 3.5vw;
 
+    background-color: #000;
     background: url(header.png) no-repeat center center fixed;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
@@ -30,14 +30,12 @@ main {
 }
 
 a {
-    color: #00adef;
     color: #ddd;
     text-decoration: none;
     transition: 1s all ease;
 }
 
 a:hover {
-    color: #111;
     color: #fff;
     text-decoration: underline;
 }
