@@ -1,38 +1,21 @@
-<!--#include virtual="/header.html" -->
+{{include "/header.html"}}
 
 <!--
-
-Hi! Have fun - please remember to close them tags (every <p> needs a </p> and so on) 
-and be safe out there! Call me any time with Qs and Mozilla's MDN is a great resource too!
-
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
-
-To make a new page, just copy this file and give it a new name without spaces. 
-(like party.html or something) then just edit everything inside <main></main> to 
-your best liking and most desired wishes.
-
-Linking to your page is easy too, just stick it in an <a></a> tag:
-
-    <a href="party.html">This is where the party is at!</a>
-
-All the styles for the site are in the styles.css file if you feel like playing around.
-
-To bust the stylesheet cache, just change the date in header.html. That will make sure 
-everyone sees the cool new stuff right away without waiting for the browser cache to 
-expire.
-
+Hey Andrew -- I switched to using caddy templates, just FYI 
+that's why the "include" parts of your site look different now, 
+I updated them to caddy-style from the previous nginx/apache-style...
 -->
 
 <main>
     <h1>Andrew Weathers</h1>
 
-    <!--#include virtual="/logo.html" -->
+    {{include "/logo.html" }}
 
     <h2>About</h2>
 
     <p>Andrew Weathers (1988) is a composer, improviser, and intermedia artist based in the Front Range region of Colorado. His work is equally concerned with the disjunction of duration and place, as well as improvisation’s prospect as a vessel of discovery and collective practice. His projects and performances span the idioms of field recording, prepared guitar, surrealist soundscape, and minimalist composition rooted in repetition and drone. Apart from his longtime commitment to collaboration alongside a wide swath of figures inhabiting the sonic underground, Weathers was also founder and operator of Full Spectrum Records. Founded in his home state of North Carolina in 2008, the label released the works of sundry sound artists and experimental musicians, eventually moving its operations to the Llano Estacado region of northwestern Texas before reaching a conscious conclusion in 2024. On top of frequent credits as a mixing and mastering engineer, he has also produced various projects for Other Minds Records and Rural Situationism.
 </p>
-    <!--#include virtual="/links.html" -->
+    {{include "/links.html" }}
 
 
     <h2>Mastering and Recording Services</h2>
@@ -211,4 +194,4 @@ expire.
 
 </main>
 
-<!--#include virtual="/footer.html" -->
+{{include "/footer.html"}}
